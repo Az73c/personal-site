@@ -1,0 +1,145 @@
+/*
+global settings
+*/
+
+body {
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 7%;
+}
+
+h1 {
+  font-size: 350%;
+  color: #11999E;
+  line-height: 2;
+  width: 20%;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+.skills {
+  padding: 40px;
+}
+
+.skill-row1 {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+  padding: 50px;
+}
+
+/* more specific settings*/
+.top-container {
+  background-color: LightSalmon;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+/*
+.middle-container {
+
+}
+*/
+
+.kakashi {
+  border-radius: 100%;
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+}
+
+.programmer {
+  border-radius: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hacker {
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.profile {
+  padding: 50px;
+}
+
+.contact-me {
+  padding: 40px;
+}
+
+.contact-me h2{
+  padding: 10px;
+}
+
+.contact-me h3{
+  padding: 30px;
+}
+
+.btn {
+  background-color: #66BFBF;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px;
+}
+
+.bottom-container p {
+  padding: 10px;
+  color: white;
+}
+
+a {
+  color: #11999E;
+  padding: 10px;
+}
